@@ -38,10 +38,13 @@ Login:
 ![Login Screen](./src/Assets/login.png)
 
 Auth:
+
 ![Auth Screen](./src/Assets/auth.png)
 
 Home:
+
 ![Home Screen](./src/Assets/home.png)
 
 Home Repository:
+
 ![Home Repos Screen](./src/Assets/repos.png)
