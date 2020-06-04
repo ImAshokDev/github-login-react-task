@@ -3,6 +3,7 @@ import "./Styles/GithubRepos.scss";
 
 const GithubRepos = ({ username }) => {
   const [person, setPerson] = useState();
+  const [size, setSize] = useState([]);
 
   useEffect(() => {
     fetch(`https://api.github.com/users/${username}/repos`)
