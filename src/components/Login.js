@@ -68,9 +68,6 @@ export default function Login() {
           </div>
         ) : (
           <>
-            {
-              // Link to request GitHub access
-            }
             <a
               className="login-link"
               href={`https://github.com/login/oauth/authorize?scope=user&client_id=${client_id}&redirect_uri=${redirect_uri}`}
