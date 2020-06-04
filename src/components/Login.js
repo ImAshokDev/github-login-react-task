@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Redirect } from "react-router-dom";
 import { AuthContext } from "../App";
 import "./Styles/Login.scss";
+import Logo from "../Assets/Logo.png";
 
 export default function Login() {
   const { state, dispatch } = useContext(AuthContext);
@@ -58,6 +59,7 @@ export default function Login() {
     <div className="container">
       <h1>Welcome</h1>
       <h5>Github Login App</h5>
+      <img src={Logo} alt="" />
       <p>{data.errorMessage}</p>
       <div className="login-block">
         {data.isLoading ? (
