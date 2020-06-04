@@ -1,6 +1,6 @@
 .home-container {
   width: 800px;
-  margin: auto;
+  margin: 10px auto 40px auto;
   border: 1px solid rgb(139, 139, 139);
   padding: 20px;
   button {
@@ -30,6 +30,10 @@
     h5 {
       font-weight: normal;
       font-size: 18px;
+    }
+    h6 {
+      font-size: 28px;
+      margin: 0 0 40px 0;
     }
   }
 }
