@@ -22,9 +22,9 @@
 yarn add nodemon
 ```
 
-- After creation of .env file, Don't forget to Logout your Github account in your device.
+- After creation of .env file, Don't forget to **Logout** your Github account in your device.
 
-* Run _yarn start_ to start the app
+* After Gothub Logout in your device, Then run _yarn start_ to start the app
 
 ### Screenshots of application Flow:
 
